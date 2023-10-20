@@ -11,13 +11,16 @@ public class Main {
         // Stampo Codice-Nome e Prezzo con Iva del prodotto 1
         System.out.println(prodotto1.getCodiceNome());
         System.out.println(prodotto1.getPrezzoConIva());
+        System.out.println(prodotto1.getCodiceWithPad());
 
         // Stampo Codice-Nome e Prezzo con Iva del prodotto 2
         System.out.println(prodotto2.getCodiceNome());
         System.out.println(prodotto2.getPrezzoConIva());
+        System.out.println(prodotto2.getCodiceWithPad());
 
         // Stampo Codice-Nome e Prezzo con Iva del prodotto 3
         System.out.println(prodotto3.getCodiceNome());
         System.out.println(prodotto3.getPrezzoConIva());
+        System.out.println(prodotto3.getCodiceWithPad());
     }
 }
