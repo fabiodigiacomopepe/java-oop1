@@ -71,4 +71,11 @@ public class Prodotto {
     public void setIva(int iva) {
         this.iva = iva;
     }
+
+    // Codice con pad left di 0 per arrivare a 8 caratteri
+    public String getCodiceWithPad() {
+        String codiceString = String.valueOf(codice);
+        String paddedCodice = String.format("%08d", codice);
+        return paddedCodice;
+    }
 }
